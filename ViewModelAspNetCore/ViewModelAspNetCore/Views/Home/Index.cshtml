@@ -9,66 +9,83 @@
 </div>
 
 <div class="container">
-    <h2>Stduent Information</h2>
-    <table class="table">
-        <thead>
-            <tr>
-                <th>
-                    ID
-                </th>
-                <th>
-                    Name
-                </th>
-                <th>
-                    Gender
-                </th>
-                <th>
-                    Standard
-                </th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var item in Model.MyStudents)
-            {
+    @if (Model.MyStudents.Any())
+    {
+
+        <h2>Stduent Information</h2>
+        <table class="table table-bordered table-dark table-hover table table-striped">
+            <thead>
                 <tr>
-                    <td>@item.ID</td>
-                    <td>@item.Name</td>
-                    <td>@item.Gender</td>
-                    <td>@item.Standard</td>
+                    <th>
+                        ID
+                    </th>
+                    <th>
+                        Name
+                    </th>
+                    <th>
+                        Gender
+                    </th>
+                    <th>
+                        Standard
+                    </th>
                 </tr>
-            }
-        </tbody>
-    </table>
-   
-    <h2>Teachers Information</h2>
-    <table class="table">
-        <thead>
-            <tr>
-                <th>
-                    ID
-                </th>
-                <th>
-                    Name
-                </th>
-                <th>
-                    Qualification
-                </th>
-                <th>
-                    Salary
-                </th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var item in Model.MyTeachers)
-            {
+            </thead>
+            <tbody>
+                @foreach (var item in Model.MyStudents)
+                {
+                    <tr>
+                        <td>@item.ID</td>
+                        <td>@item.Name</td>
+                        <td>@item.Gender</td>
+                        <td>@item.Standard</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+    }
+    else
+    {
+        <h2>No Students Found</h2>
+    }
+    <br />
+
+    @if (Model.MyTeachers.Any())
+    {
+        <h2>Teachers Information</h2>
+        <table class="table table-bordered table-dark table-hover table table-striped">
+            <thead>
                 <tr>
-                    <td>@item.ID</td>
-                    <td>@item.Name</td>
-                    <td>@item.Qualification</td>
-                    <td>@item.salary</td>
+                    <th>
+                        ID
+                    </th>
+                    <th>
+                        Name
+                    </th>
+                    <th>
+                        Qualification
+                    </th>
+                    <th>
+                        Salary
+                    </th>
                 </tr>
-            }
-        </tbody>
-    </table>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.MyTeachers)
+                {
+                    <tr>
+                        <td>@item.ID</td>
+                        <td>@item.Name</td>
+                        <td>@item.Qualification</td>
+                        <td>@item.salary</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <h2>No Teachers Found..</h2>
+    }
 
 </div>
