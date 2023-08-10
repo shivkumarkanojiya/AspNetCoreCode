@@ -1,4 +1,4 @@
-namespace ValidationAttributeAspDotCore.Models
+namespace ViewModelAspNetCore.Models
 {
     public class ErrorViewModel
     {

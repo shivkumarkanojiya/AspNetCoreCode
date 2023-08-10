@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidationAttributeAspDotCore", "ValidationAttributeAspDotCore\ValidationAttributeAspDotCore.csproj", "{220FEB2C-9EBC-4777-8EA6-371FF89C555E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewModelAspNetCore", "ViewModelAspNetCore\ViewModelAspNetCore.csproj", "{D6D5E2DE-4A9E-4A9B-AA6C-B608FE8AD3B8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{220FEB2C-9EBC-4777-8EA6-371FF89C555E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{220FEB2C-9EBC-4777-8EA6-371FF89C555E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{220FEB2C-9EBC-4777-8EA6-371FF89C555E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{220FEB2C-9EBC-4777-8EA6-371FF89C555E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6D5E2DE-4A9E-4A9B-AA6C-B608FE8AD3B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6D5E2DE-4A9E-4A9B-AA6C-B608FE8AD3B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6D5E2DE-4A9E-4A9B-AA6C-B608FE8AD3B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6D5E2DE-4A9E-4A9B-AA6C-B608FE8AD3B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {0A065201-344B-44BC-A611-6F9CFB26DE25}
+		SolutionGuid = {64CBEA74-DAF9-4A02-ABAB-F5D9AB780B99}
 	EndGlobalSection
 EndGlobal
